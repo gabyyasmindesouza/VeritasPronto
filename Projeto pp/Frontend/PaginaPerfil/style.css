@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2F9648;
+    height: 10%;
+    padding: 20px;
+}
+
+#BotaoVoltar{
+    font-size: large;
+    padding: 15px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    margin-right: 20px;
+    align-items: center;
+    height: 50px;
+    font-family: 'Aleo', serif;
+    justify-content: center;
+}
+
+#BotaoVoltar:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#divHeader{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+}
+
+#LogoHeader{
+    width: 90px;
+}
+
+main{
+    width: 100%;
+    min-height: 85vh;
+    background-color: #cafdc2;
+    display: flex;
+}
+
+nav{
+    background-color: #57B66E;
+    min-height: 630.5px;
+    width: 300px;
+}
+
+#DivImagemPerfil{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+#ImagemPerfil{
+    width: 200px;
+}
+
+#DivNomePerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#NomePerfil{
+    padding: 10px;
+    color: #052f0f;
+}
+
+#DivTextoPrincipal{
+    height: 70px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TextoPrincipal{
+    color: #052f0f;
+    font-family: 'Lobster', cursive;
+}
+
+.listaFavoritos{
+    width: 50%;
+    /* border-color: #0B4719;
+    border: 2px solid; */
+    /* margin-left: 200px; */
+}
+
+#DivHistorico{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

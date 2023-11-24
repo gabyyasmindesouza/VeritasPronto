@@ -1,0 +1,84 @@
+.livro {
+    border: 1px solid #052f0f;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.tituloLivro {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+}
+
+.autor {
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.resenha, .comentario {
+    margin-top: 5px;
+    font-family: 'Aleo', serif;
+}
+
+.comentarBotao, .adicionarComentarioBotao {
+    background-color: #2F9648;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Aleo', serif;
+}
+
+.comentarBotao:hover, .adicionarComentarioBotao:hover {
+    background-color: #0B4719;
+}
+
+/* ////////////////////////// */
+
+
+.removerBotao {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.removerBotao:hover {
+    background-color: #cc0000;
+}
+
+.adicionarResenhaBotao{
+    background-color: #2F9648;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.adicionarResenhaBotao:hover{
+    background-color: #0B4719;
+}
+
+.inputResenha{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Aleo', serif;
+    color: #0B4719;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.textoResenhaLivro{
+    margin-top: 10px;
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+}

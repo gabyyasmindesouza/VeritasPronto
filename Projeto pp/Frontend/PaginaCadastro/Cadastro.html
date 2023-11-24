@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <div id="divCadastro">
+            <nav>
+                <div id="divTitulo">
+                    <h2 id="TituloCadastro">Cadastro</h2>
+                </div>
+                <div id="divLogo">
+                    <img src="../assets/logo.png" alt="">
+                </div>
+            </nav>
+                <form id="DivInputCadastro">
+                    <h3 for="nome_usuario" id="TituloInputCadastro">Nome</h3>
+                    <input class="InputCadastro" id="nome"  type="text" placeholder="Digite aqui o seu nome">
+                </form>
+                <form id="DivInputCadastro">
+                    <h3 for="usuario_usuario" id="TituloInputCadastro">Usuário</h3>
+                    <input class="InputCadastro" id="usuario" type="text" placeholder="Digite aqui o seu usuário">
+                </form>
+                <form id="DivInputCadastro">
+                    <h3 for="email_usuario" id="TituloInputCadastro">E-mail</h3>
+                    <input class="InputCadastro" id="email" type="text" placeholder="Digite aqui o seu e-mail">
+                </form>
+                <form id="DivInputCadastro">
+                    <h3 for="senha_usuario" id="TituloInputCadastro">Senha</h3>
+                    <input class="InputCadastro" id="senha" type="password" placeholder="Digite aqui a sua senha">
+                </form>
+                <div id="DivBotaoCadastrar">
+                    <button onclick="cadastrar()" id="BotaoCadastrar">Cadastrar</button>
+                </div>
+
+        </div>
+    </main>
+    <script src="./cadastro.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #2F9648;
+    height: 10%;
+    padding: 10px;
+}
+
+#Logo_header{
+    width: 90px;
+}
+
+#Sobre_site{
+    font-size: large;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    display: flex;
+    margin-right: 10px;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aleo', serif;
+}
+
+#Sobre_site:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#BotaoVoltar{
+    font-size: large;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aleo', serif;
+}
+
+#BotaoVoltar:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+}
+
+#div_header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#usuario{
+    width: 70px;
+}
+
+main{
+    min-height: 87vh;
+    background-color: #cafdc2;
+    display: flex;
+}
+
+nav{
+    background-color: #57B66E;
+    width: 270px;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivNav{
+    width: 250px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#marcarComoLido{
+    background-color: #57B66E;
+    color: #0B4719;
+    border: 2px solid;
+    border-color: #0B4719;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Aleo', serif;
+}
+
+#marcarComoLido:hover{
+    background-color: #0B4719;
+    color: #57B66E;
+}
+
+#DivCapa{
+    /* background-color: aqua; */
+    width: 350px;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+}
+
+#DivP{
+    width: 60%;
+}
+
+#DivTextos{
+    /* background-color: rgb(251, 255, 135); */
+    width: 900px;
+    height: 160px;
+}
+
+#CapaLivro{
+    width: 68%;
+    height: 50%;
+    margin-top: 40px;
+}
+
+#DivTitulo{
+    /* background-color: rgb(21, 0, 255); */
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TituloLivro{
+    display: flex;
+    margin-top: 45px;
+    background-color: #3fa258;
+    color: #0B4719;
+    width: 380px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivAutor{
+    /* background-color: rgb(33, 173, 173); */
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#NomeAutor{
+    display: flex;
+    margin-top: 20px;
+    background-color: #3fa258;
+    color: #0B4719;
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivPagEst{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#DivPaginas{
+    /* background-color: rgb(224, 160, 77); */
+    width: 30%;
+    height: 40px;
+    display: flex;
+    margin-right: 2.5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#DivEstrelas{
+    /* background-color: rgb(112, 174, 228); */
+    width: 30%;
+    height: 40px;
+    display: flex;
+    margin-left: 2.5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#Paginas{
+    background-color: #3fa258;
+    color: #0B4719;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Estrelas{
+    background-color: #3fa258;
+    color: #0B4719;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivDescricaoP{
+    /* background-color: rgb(255, 166, 230); */
+    width: 80%;
+    min-height: 421px;
+    display: flex;
+    justify-content: center;
+}
+
+#DivDescricao{
+    background-color: #3fa258;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin-top: 21px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TituloDescricao{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-family: 'Lobster', cursive;
+    color: #0B4719;
+}
+
+#TextoDescricao{
+    /* background-color: #127B2C; */
+    width: 90%;
+    height: 120px;
+    justify-content: center;
+    /* font-size: large;    */
+    margin-top: 10px;
+    font-family: 'Aleo', serif;
+    color: #0B4719;
+}

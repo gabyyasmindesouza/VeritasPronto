@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    background-color: #2F9648;
+    height: 10%;
+    padding: 10px;
+}
+
+#Logo_header{
+    width: 90px;
+}
+
+#BotaoVoltar{
+    font-size: large;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aleo', serif;
+}
+
+#BotaoVoltar:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+
+}
+
+#div_header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+main{
+    min-height: 87.7vh;
+    background-color: #cafdc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#usuario{
+    width: 70px;
+}
+
+#DivSobreSite{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    background-color: #2F9648;
+    flex-direction: column;
+}
+
+#DivTexto{
+    display: flex;
+    justify-content: center;
+}
+
+#TextoSobreSite{
+    font-family: 'Lobster', cursive;
+    color: #0B4719;
+    font-size: 50px;
+}
+
+#DivParagrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#Paragrafo{
+    padding: 10px;
+    color: #052f0f;
+    font-family: 'Aleo', serif;
+    width: 50%;
+    text-align: center;
+}
+
+#BotaoVoltar{
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #127B2C;
+    margin-right: 20px;
+    align-items: center;
+    height: 50px;
+    font-family: 'Aleo', serif;
+    justify-content: center;
+}

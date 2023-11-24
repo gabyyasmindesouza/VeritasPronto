@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #2F9648;
+    height: 10%;
+    padding: 10px;
+}
+
+#Logo_header{
+    width: 92px;
+}
+
+#Sobre_site{
+    font-size: large;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    display: flex;
+    margin-right: 10px;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aleo', serif;
+}
+
+#Sobre_site:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#campoDeBusca{
+    align-self: center;
+    width: 30%;
+    padding: 12px 20px;
+    margin-right: 20px;
+    background-image: url(../assets/lupa.png);
+    background-repeat:no-repeat;
+    background-size: 35px;
+    background-position: right; 
+    font-family: 'Aleo', serif;
+}
+
+#div_header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#usuario{
+    width: 70px;
+}
+
+main{
+    min-height: 87vh;
+    background-color: #cafdc2;
+}
+
+#TituloClassificacao{
+    color: #0B4719;
+    font-family: 'Aleo', serif;
+    padding: 15px;
+}
+
+#DivLivrosTodos{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#BotaoLivro{
+    width: 110px;
+    height: 180px;
+    display: flex;
+}
+
+#DivLivros1{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros2{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros3{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros4{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros5{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros6{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros7{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros8{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivLivros9{
+    width: 110px;
+    height: 180px;
+    display: flex;
+    margin: 25px;
+}
+
+#DivGradiente{
+    background-image: linear-gradient(#cafdc2, #2F9648);
+    width: 100%;
+    height: 30px;
+}
+
+#DivFooterPrincipal{
+    background-color: #2F9648;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+#DivFraseLogo{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#DivLogo{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LogoFooter{
+    width: 28%;
+    height: 95%;
+    margin-right: 100px;
+}
+
+#DivFrase{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FraseFooter{
+    color: #0B4719;
+    display: flex;
+    text-align: center;
+    margin-right: 100px;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+}
+
+#DivContatoPrincipal{
+    width: 50%;
+    height: 250px;
+}
+
+#DivTituloContatos{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TituloContatos{
+    color: #0B4719;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#DivInsta{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#IconeInsta{
+    width: 10%;
+    margin-left: 100px;
+}
+
+#Instagram{
+    color: #0B4719;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Aleo', serif;
+}
+
+#DivEmail{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#IconeEmail{
+    width: 10%;
+    margin-left: 100px;
+}
+
+#Email{
+    color: #0B4719;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Aleo', serif;
+}
+
+#Livro:hover{
+    border: 4px solid;
+    border-color: #0B4719;
+}

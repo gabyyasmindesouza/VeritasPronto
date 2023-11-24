@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    background: linear-gradient(#8aeea3, #3cf169);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divCadastro{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    background-color: #2F9648;
+    align-content: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+}
+
+#TituloCadastro{
+    font-family: 'Lobster', cursive;
+    color: #0B4719;
+    font-size: 60px;
+}
+
+#divLogo{
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+
+#divTitulo{
+    display: flex;
+    width: 69vw;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#DivInputCadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#DivInputCadastro{
+    font-family: 'Aleo', serif;
+    color: #0B4719;
+}
+
+.InputCadastro{
+    font-family: 'Aleo', serif;
+    width: 99%;
+    padding: 12px 20px;
+}
+
+#DivBotaoCadastrar{
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+}
+
+#BotaoCadastrar{
+    font-size: large;
+    padding: 12px;
+    text-decoration: none;
+    color: #0B4719;
+    background-color: #2F9648;
+    border-color: #0B4719;
+    border: 2px solid;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Aleo', serif;
+    justify-content: center;
+}
+
+#BotaoCadastrar:hover{
+    color: #2F9648;
+    background-color: #0B4719;
+}
+
+#TituloInputCadastro{
+    font-family: 'Aleo', serif;
+}
